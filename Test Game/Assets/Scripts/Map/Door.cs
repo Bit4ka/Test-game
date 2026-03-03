@@ -2,15 +2,32 @@
 
 public class Door : MonoBehaviour
 {
-    public enum Direction { North, East, South, West }  // Kierunek drzwi
+    public enum Direction { North, East, South, West }
     public Direction doorDirection;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {  // Taguj gracza "Player"
-            // Tutaj logika zmiany pokoju, np. RoomManager.Instance.MoveToNextRoom(doorDirection);
-            Debug.Log("Wejście przez drzwi: " + doorDirection);
+        {
+            animator.SetTrigger("Open");
+            // Tutaj później: RoomManager.MoveToNextRoom(doorDirection);
+            Debug.Log("Otwieram drzwi: " + doorDirection);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            animator.SetTrigger("Close");
+            Debug.Log("Zamykam drzwi: " + doorDirection);
         }
     }
 }
