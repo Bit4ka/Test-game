@@ -1,0 +1,71 @@
+﻿.pause-overlay {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.pause-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Półprzezroczyste czarne tło - gra widoczna! */
+  align-items: center;
+  justify-content: center;
+}
+
+.pause-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+}
+
+.pause-button {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  border: none;
+  padding: 20px 40px;
+  cursor: pointer;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Lekki glow normal */
+  transition: all 0.3s ease; /* Gładka animacja */
+  min-width: 200px;
+}
+
+.pause-button:hover,
+.pause-button:focus-visible { /* Hover + focus (dla gamepada/klawiatury) */
+  color: #00ffff; /* Cyan jak w Ori */
+  text-shadow: 0 0 25px #00ffff, 0 0 40px #00ffff; /* Mocny glow! */
+  transform: scale(1.15);
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.options-panel {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.corner-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.corner-btn:hover {
+  background-color: #00ffff;
+  box-shadow: 0 0 15px #00ffff;
+}
