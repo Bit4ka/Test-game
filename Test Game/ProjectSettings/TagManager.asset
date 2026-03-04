@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - IgnoreProjectiles
   layers:
   - Default
   - TransparentFX
@@ -33,10 +34,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Wall
+  - Item
+  - Enemy
+  - Player
   m_SortingLayers:
   - name: Default
     uniqueID: 0

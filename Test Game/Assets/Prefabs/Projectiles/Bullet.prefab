@@ -125,12 +125,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.24609375
+  m_Radius: 0.2660938
 --- !u!50 &7612729615313528541
 Rigidbody2D:
   serializedVersion: 5
@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eefc8f6fb83754386f1dea1d6124e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
+  _damage: 1
   _timeToDestroy: 5
   _destroyFX: {fileID: 8795867775033360063}
 --- !u!1001 &5784277342615560545

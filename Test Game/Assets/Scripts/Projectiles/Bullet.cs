@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour, IProjectile
     private Vector2 _shootDirection;
 
     [Header("Settings")]
+    [SerializeField] private float _damage;
     [SerializeField] private float _timeToDestroy;
     [SerializeField] private ParticleSystem _destroyFX; 
 
@@ -39,21 +40,27 @@ public class Bullet : MonoBehaviour, IProjectile
 
     private void LifeTimeEnd() => StartCoroutine(DestroyBullet());
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Shoud take damage from npc
+        // Warstwy, o które pocisk powinien móc siê rozbiæ. Do przerobienia
+        if ((collision.gameObject.layer != 31 && collision.gameObject.layer != 30 && collision.gameObject.layer != 28) || collision.CompareTag("IgnoreProjectiles"))
+            return;
+
+        if (collision.TryGetComponent<Health>(out Health targetHealth))
+            targetHealth.TakeDamage(_damage);
+        
         StartCoroutine(DestroyBullet());
     }
 
     private IEnumerator DestroyBullet()
     {
-        _destroyFX.Play();
         _spriteRenderer.enabled = false;
         _collider.enabled = false;
         _isActive = false;
+        _rb.linearVelocity = Vector2.zero;
+
+        _destroyFX.Play();
         yield return new WaitForSeconds(1);
         Destroy(gameObject);
     }
-
-
 }
