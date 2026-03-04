@@ -43,7 +43,7 @@ public class Bullet : MonoBehaviour, IProjectile
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Warstwy, o które pocisk powinien móc siê rozbiæ. Do przerobienia
-        if (collision.gameObject.layer != 10 && collision.gameObject.layer != 7 && collision.gameObject.layer != 8)
+        if ((collision.gameObject.layer != 31 && collision.gameObject.layer != 30 && collision.gameObject.layer != 28) || collision.CompareTag("IgnoreProjectiles"))
             return;
 
         if (collision.TryGetComponent<Health>(out Health targetHealth))
