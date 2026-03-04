@@ -12,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Doors
+  - Shadow
+  - Background
   - 
   - 
   - 
@@ -41,6 +41,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2930442657
+    locked: 0
+  - name: Shadow
+    uniqueID: 148576369
+    locked: 0
+  - name: Doors
+    uniqueID: 4225046185
     locked: 0
   m_RenderingLayers:
   - Default
