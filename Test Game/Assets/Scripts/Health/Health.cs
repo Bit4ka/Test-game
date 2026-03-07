@@ -17,7 +17,6 @@ public class Health : MonoBehaviour
     [SerializeField] private int _numberOfFlashes;
     [SerializeField] private float _iFramesTime;
 
-
     private void Start()
     {
         CurrentHealth = MaxHealth;
@@ -62,21 +61,21 @@ public class Health : MonoBehaviour
 
     private void Deactivate() => gameObject.SetActive(false);
 
-    // Gracz nie dostaje obra¿eñ po uderzeniu
+    // Gracz przez okreslony czas nie dostaje obra¿eñ po uderzeniu
     private IEnumerator Invulnerability()
     {
-        Physics2D.IgnoreLayerCollision(7, 8, true);
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), true);
 
-        Color charcterColor = _spriteRenderer.color;
+        Color defaultColor = _spriteRenderer.color;
 
         for(int i =0; i < _numberOfFlashes; i++)
         {
             _spriteRenderer.color = Color.red;
             yield return new WaitForSeconds(_iFramesTime / (_numberOfFlashes * 2));
-            _spriteRenderer.color = charcterColor;
+            _spriteRenderer.color = defaultColor;
             yield return new WaitForSeconds(_iFramesTime / (_numberOfFlashes * 2));
         }
 
-        Physics2D.IgnoreLayerCollision(7, 8, false);
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), false);
     }
 }

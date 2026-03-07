@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
-public class PlayerAttacks : MonoBehaviour
+public class PlayerDistanceAttack : MonoBehaviour
 {
     [Header("Shooting")]
     [SerializeField] private GameObject _bulletPrefab;
@@ -21,7 +21,6 @@ public class PlayerAttacks : MonoBehaviour
         _firePoint.localPosition = _shootDirection;
     }
 
-    #region Player Attacks
     public void ShootBullet(InputAction.CallbackContext context)
     {
         if (context.performed && _canShoot)
@@ -39,5 +38,4 @@ public class PlayerAttacks : MonoBehaviour
     }
 
     private void AllowShooting() => _canShoot = true;
-    #endregion
 }
