@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8aedffdafb9d03d49acff03e3814039e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Jumper/Jumper.prefab
+  uploadId: 732349

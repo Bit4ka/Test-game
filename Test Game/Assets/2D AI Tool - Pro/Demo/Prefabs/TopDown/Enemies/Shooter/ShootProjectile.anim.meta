@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f55e732d63f1c1a43b6cfcce10733f2d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/TopDown/Enemies/Shooter/ShootProjectile.anim
+  uploadId: 732349

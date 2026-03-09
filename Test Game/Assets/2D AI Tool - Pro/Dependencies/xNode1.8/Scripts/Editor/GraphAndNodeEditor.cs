@@ -1,0 +1,50 @@
+﻿using UnityEditor;
+using UnityEngine;
+
+namespace XNodeEditor
+{
+    /// <summary> Override graph inspector to show an 'Open Graph' button at the top </summary>
+    [CustomEditor(typeof(XNode.NodeGraph), true)]
+    [CanEditMultipleObjects]
+    public class GlobalGraphEditor : Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            serializedObject.Update();
+
+            if (GUILayout.Button("Edit graph", GUILayout.Height(40)))
+            {
+                if (serializedObject.targetObject != null)
+                    NodeEditorWindow.Open(serializedObject.targetObject as XNode.NodeGraph);
+            }
+
+            GUILayout.Space(EditorGUIUtility.singleLineHeight);
+            GUILayout.Label("Raw data", "BoldLabel");
+
+            DrawDefaultInspector();
+
+            serializedObject.ApplyModifiedProperties();
+        }
+    }
+
+    //[CustomEditor(typeof(XNode.Node), true)]
+    public class GlobalNodeEditor : Editor
+    {
+        public override void OnInspectorGUI()
+        {
+            serializedObject.Update();
+
+            if (GUILayout.Button("Edit graph", GUILayout.Height(40)))
+            {
+                SerializedProperty graphProp = serializedObject.FindProperty("graph");
+                NodeEditorWindow w = NodeEditorWindow.Open(graphProp.objectReferenceValue as XNode.NodeGraph);
+                if (w != null)
+                    w.Home(); // Focus selected node
+            }
+
+            DrawDefaultInspector();
+
+            serializedObject.ApplyModifiedProperties();
+        }
+    }
+}

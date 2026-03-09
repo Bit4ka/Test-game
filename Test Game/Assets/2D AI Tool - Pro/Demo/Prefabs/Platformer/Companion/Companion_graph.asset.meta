@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b1d24d03aff626e48bdd5bb6d0a33b6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Companion/Companion_graph.asset
+  uploadId: 732349

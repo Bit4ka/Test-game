@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ea3bb2bee3e5494c924e23168786bab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Jumper/entityData_Jumper.asset
+  uploadId: 732349

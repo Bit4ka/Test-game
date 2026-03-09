@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5551442155e4d7b4eb44d2f302c0b236
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: f4d145c239e50b6488261882bc6bc292, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Sound/Sound.cs
+  uploadId: 732349

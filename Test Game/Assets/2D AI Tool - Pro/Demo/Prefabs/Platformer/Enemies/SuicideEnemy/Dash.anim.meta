@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67b6fbaf1162dbf4ca8341e683302a0a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/SuicideEnemy/Dash.anim
+  uploadId: 732349

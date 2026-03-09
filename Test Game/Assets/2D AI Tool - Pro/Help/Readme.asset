@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 3a4a6becce6e9ba468b0e95045ea222e, type: 3}
+  title: '2D AI Tool Pro: A complete framework and node editor.'
+  sections:
+  - heading: A big Thank you
+    text: 'Firstly, I want to thank you for purchasing this tool and helping to make
+      true the dreams of a fellow developer. You can open this ReadMe file again
+      by selecting it in the Help folder or by Cliking -> Tools -> 2DAITool Help
+      File '
+    linkText: 
+    url: 
+  - heading: Overview
+    text: With this tool, you can create enemy behaviors, NPC movement, bosses in
+      just a few steps to create your game faster and with fun, create quick prototypes,
+      make super complex and fun enemies or create simple enemies/NPCs(You decide).
+      This tool comes with 27 fully documented states ready to be used in your projects.
+      In addition, you can create your states and behavior by following the API documentation
+      and tutorial on the website or PDF documentation offline.
+    linkText: Check the online documentation
+    url: https://maykerstudio.gitlab.io/AI2DTool/
+  - heading: Third party tools
+    text: 'This package uses 3 third party projects to make things easy for everyone,
+      which is: Editor Toolbox, xNode and NavMeshPlus2D. The only one that you need
+      to know how it works is the NavMeshPlus2D, because it''s how we use Pathfinding
+      in 2D using the built-in Unity Navmesh (Check documentation). But if you want
+      to use the others tool to make things in your project you can check they GitHub
+      pages on the links below (Send they some love too). Furthermore, we have integrations
+      with A* Pathfinding project from Aron Granberg.'
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: Editor Toolbox
+    url: https://github.com/arimger/Unity-Editor-Toolbox
+  - heading: 
+    text: 
+    linkText: xNode
+    url: https://github.com/neoneper/xNode/
+  - heading: Demo scenes
+    text: This package comes with two demo scenes (For platformer and top-down) that
+      will show an overview of what you can do with this tool. The sprites, animations,
+      and tilesets were created by the talented Ansimuz, the license of the art is
+      CC0 (Public-domain).
+    linkText: Check ansimuz itch.io page
+    url: https://ansimuz.itch.io
+  - heading: Got feedback?
+    text: Please reach us about the tool in the discord server
+    linkText: Discord
+    url: https://discord.gg/xMAFUksdz9
+  - heading: Before playing the demo
+    text: For the entities in the demo scenes to work correctly, you need to set
+      up the layers on the section below, because we can't automatically create layers
+      in your project (This could break your existing layers if we do that). So,
+      I recommend that you put enemies and players in different layers, also, 'WhatIsGround'
+      is the same thing as "WhatIsObstacles", this will be the layer where all your
+      platforms, walls, obstacles will be. Also, the projectiles should be on their
+      respective layer too. Also, you need to bake the NavMesh2D.
+    linkText: 
+    url: 
+  hasShowedOnce: 1

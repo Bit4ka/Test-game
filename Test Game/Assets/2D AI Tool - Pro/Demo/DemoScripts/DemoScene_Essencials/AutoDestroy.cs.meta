@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f5c98decd64b30548be572379b266950
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/DemoScripts/DemoScene_Essencials/AutoDestroy.cs
+  uploadId: 732349

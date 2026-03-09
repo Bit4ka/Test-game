@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: a143739eaf73e754088a3abfb626e0d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8836866468700875315
+    second: Knockback - Sprite Sheet_0
+  - first:
+      213: -6353862150935396504
+    second: Knockback - Sprite Sheet_1
+  - first:
+      213: -3579690283654316868
+    second: Knockback - Sprite Sheet_2
+  - first:
+      213: -1389126950692280693
+    second: Knockback - Sprite Sheet_3
+  - first:
+      213: 3495071940483235192
+    second: Knockback - Sprite Sheet_4
+  - first:
+      213: 8825623830243283660
+    second: Knockback - Sprite Sheet_5
+  - first:
+      213: -4928312811417586328
+    second: Knockback - Sprite Sheet_6
+  - first:
+      213: 5623462705645149662
+    second: Knockback - Sprite Sheet_7
+  - first:
+      213: 1606316218876847194
+    second: Knockback - Sprite Sheet_8
+  - first:
+      213: 6163822426324201934
+    second: Knockback - Sprite Sheet_9
+  - first:
+      213: -2338509080979920582
+    second: Knockback - Sprite Sheet_10
+  - first:
+      213: 2420154764466397879
+    second: Knockback - Sprite Sheet_11
+  - first:
+      213: 1772889423493308562
+    second: Knockback - Sprite Sheet_12
+  - first:
+      213: 7393166541440914955
+    second: Knockback - Sprite Sheet_13
+  - first:
+      213: 5514976187956241957
+    second: Knockback - Sprite Sheet_14
+  - first:
+      213: -4512238511155699716
+    second: Knockback - Sprite Sheet_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ae97acb3bd2aa70800000000000000
+      internalID: 8836866468700875315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f32b5b90c82d7a0800000000000000
+      internalID: -6353862150935396504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcfddc27a2625ec0800000000000000
+      internalID: -3579690283654316868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86a014f564d8bce0800000000000000
+      internalID: -1389126950692280693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d30f4896df08030800000000000000
+      internalID: 3495071940483235192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc29fda0d1aea7a70800000000000000
+      internalID: 8825623830243283660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865b27dfb9d1b9bb0800000000000000
+      internalID: -4928312811417586328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 544
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd2a1598d8a0e40800000000000000
+      internalID: 5623462705645149662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a546a172718ca4610800000000000000
+      internalID: 1606316218876847194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f3a3e6db4a8550800000000000000
+      internalID: 6163822426324201934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39aa2c7162fb8fd0800000000000000
+      internalID: -2338509080979920582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22d7d8fed169120800000000000000
+      internalID: 2420154764466397879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290ad5999819a9810800000000000000
+      internalID: 1772889423493308562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0693eb7ccdc99660800000000000000
+      internalID: 7393166541440914955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526aed39f91298c40800000000000000
+      internalID: 5514976187956241957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knockback - Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 0
+        width: 670
+        height: 544
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff1ab02bfe4161c0800000000000000
+      internalID: -4512238511155699716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Knockback - Sprite Sheet_0: 8836866468700875315
+      Knockback - Sprite Sheet_1: -6353862150935396504
+      Knockback - Sprite Sheet_10: -2338509080979920582
+      Knockback - Sprite Sheet_11: 2420154764466397879
+      Knockback - Sprite Sheet_12: 1772889423493308562
+      Knockback - Sprite Sheet_13: 7393166541440914955
+      Knockback - Sprite Sheet_14: 5514976187956241957
+      Knockback - Sprite Sheet_15: -4512238511155699716
+      Knockback - Sprite Sheet_2: -3579690283654316868
+      Knockback - Sprite Sheet_3: -1389126950692280693
+      Knockback - Sprite Sheet_4: 3495071940483235192
+      Knockback - Sprite Sheet_5: 8825623830243283660
+      Knockback - Sprite Sheet_6: -4928312811417586328
+      Knockback - Sprite Sheet_7: 5623462705645149662
+      Knockback - Sprite Sheet_8: 1606316218876847194
+      Knockback - Sprite Sheet_9: 6163822426324201934
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/2D Sci Fi Characters/The
+    Hero/Animations/Knockback/Knockback - Sprite Sheet.png
+  uploadId: 732349

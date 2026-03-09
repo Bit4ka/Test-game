@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 6d81cf8450bd8aa4ab3812a4c3a6fc27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9089724688500297070
+    second: Hurt - Sprite Sheet_0
+  - first:
+      213: -2950377648439024166
+    second: Hurt - Sprite Sheet_1
+  - first:
+      213: -557064650514198960
+    second: Hurt - Sprite Sheet_2
+  - first:
+      213: 3459123906468670880
+    second: Hurt - Sprite Sheet_3
+  - first:
+      213: -3044412503244564044
+    second: Hurt - Sprite Sheet_4
+  - first:
+      213: -4451638931183775733
+    second: Hurt - Sprite Sheet_5
+  - first:
+      213: -673353130551579571
+    second: Hurt - Sprite Sheet_6
+  - first:
+      213: -4849567307042891705
+    second: Hurt - Sprite Sheet_7
+  - first:
+      213: -4647383215725049170
+    second: Hurt - Sprite Sheet_8
+  - first:
+      213: 7099504524631694748
+    second: Hurt - Sprite Sheet_9
+  - first:
+      213: 7614876070810771990
+    second: Hurt - Sprite Sheet_10
+  - first:
+      213: 7565512598571166817
+    second: Hurt - Sprite Sheet_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d882cd170352e70800000000000000
+      internalID: 9089724688500297070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 468
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad52a8719272e07d0800000000000000
+      internalID: -2950377648439024166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 468
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e8c2dd6a8e448f0800000000000000
+      internalID: -557064650514198960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 468
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad602f9dd6410030800000000000000
+      internalID: 3459123906468670880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 468
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9995255f210c5d0800000000000000
+      internalID: -3044412503244564044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00dd765af99832c0800000000000000
+      internalID: -4451638931183775733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c631535e4c7a6f0800000000000000
+      internalID: -673353130551579571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 0
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7485c557a30e2bcb0800000000000000
+      internalID: -4849567307042891705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 0
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa8893969d218fb0800000000000000
+      internalID: -4647383215725049170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt - Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 0
+        width: 566
+        height: 468
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d53f710c1868260800000000000000
+      internalID: 7099504524631694748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hurt - Sprite Sheet_0: 9089724688500297070
+      Hurt - Sprite Sheet_1: -2950377648439024166
+      Hurt - Sprite Sheet_2: -557064650514198960
+      Hurt - Sprite Sheet_3: 3459123906468670880
+      Hurt - Sprite Sheet_4: -3044412503244564044
+      Hurt - Sprite Sheet_5: -4451638931183775733
+      Hurt - Sprite Sheet_6: -673353130551579571
+      Hurt - Sprite Sheet_7: -4849567307042891705
+      Hurt - Sprite Sheet_8: -4647383215725049170
+      Hurt - Sprite Sheet_9: 7099504524631694748
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/2D Sci Fi Characters/The
+    Hero/Animations/Hurt/Hurt - Sprite Sheet.png
+  uploadId: 732349

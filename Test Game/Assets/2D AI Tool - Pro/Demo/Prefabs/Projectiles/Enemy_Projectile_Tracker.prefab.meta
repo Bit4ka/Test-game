@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 46ca79c1e690f1a45b96bc82928e9d80
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Projectiles/Enemy_Projectile_Tracker.prefab
+  uploadId: 732349

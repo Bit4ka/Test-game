@@ -81,8 +81,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -69921111
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 9751065eafdb8bf4a9a471324eba2aaa, type: 3}
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24eefc8f6fb83754386f1dea1d6124e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  _damage: 1
+  _damage: 25
   _timeToDestroy: 5
   _destroyFX: {fileID: 8795867775033360063}
 --- !u!1001 &5784277342615560545
@@ -181,6 +181,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5942755951712280963}
     m_Modifications:
+    - target: {fileID: 2089764728661881256, guid: ff2e13f57c7a1d54c89c311d2e0e0ee9, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089764728661881256, guid: ff2e13f57c7a1d54c89c311d2e0e0ee9, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -69921111
+      objectReference: {fileID: 0}
     - target: {fileID: 3050294549560418270, guid: ff2e13f57c7a1d54c89c311d2e0e0ee9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 0.6

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d352c2d491cfb4843b717bdb53e4f47f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Gameplay/AttackDetailsHolder.cs
+  uploadId: 732349

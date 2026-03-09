@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 754699239b0b94c4c9dc6041a1ec4b5f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Player/Jump.anim
+  uploadId: 732349

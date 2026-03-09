@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 415ba0d1a224a8d498fff39833f9a884
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/TopDown/Enemies/Shooter/Shooter.controller
+  uploadId: 732349

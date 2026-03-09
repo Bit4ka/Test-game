@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 44f79cf4e62694f4eae8da664a1ada9d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Entities/SpecialNodes/ConditionalNodes/OnDamagedDirectionNode.cs
+  uploadId: 732349

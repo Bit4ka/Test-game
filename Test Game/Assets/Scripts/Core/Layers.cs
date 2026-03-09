@@ -1,16 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class Layers : MonoBehaviour
+public static class Layers 
 {
     // Warstwy, o które trafia pocisk
-    public static List<int> ProjectileHitLayers { get; private set; }
+    public static List<int> ProjectileHitLayers { get; private set; } = new List<int>() { LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Wall") };
 
-    void Start()
-    {
-        ProjectileHitLayers = new List<int>() { LayerMask.NameToLayer("Enemy"), LayerMask.NameToLayer("Wall") };
-        DontDestroyOnLoad(gameObject);
-    }
-
-    
 }

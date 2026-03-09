@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6ba860c3ae7c04429f39612dbb7af3e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Scenes/Platformer2D/PlatMat.physicsMaterial2D
+  uploadId: 732349

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae8c15a808b2a1b419e5ee29c021394e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/SuicideEnemy/Patrol.anim
+  uploadId: 732349

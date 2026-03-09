@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: cb658882707aa084590cd2f1eeef7c4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -996601789122790726
+    second: Jetpack Fly Forward - Sprite Sheet_0
+  - first:
+      213: 1815100152097445368
+    second: Jetpack Fly Forward - Sprite Sheet_1
+  - first:
+      213: 6817717653998357416
+    second: Jetpack Fly Forward - Sprite Sheet_2
+  - first:
+      213: 2819948194053550286
+    second: Jetpack Fly Forward - Sprite Sheet_3
+  - first:
+      213: -7679333244714452482
+    second: Jetpack Fly Forward - Sprite Sheet_4
+  - first:
+      213: 5814081061713643942
+    second: Jetpack Fly Forward - Sprite Sheet_5
+  - first:
+      213: -501628517540107370
+    second: Jetpack Fly Forward - Sprite Sheet_6
+  - first:
+      213: 7911779776159807510
+    second: Jetpack Fly Forward - Sprite Sheet_7
+  - first:
+      213: -4457347295916157327
+    second: Jetpack Fly Forward - Sprite Sheet_8
+  - first:
+      213: -3114611543653560386
+    second: Jetpack Fly Forward - Sprite Sheet_9
+  - first:
+      213: -2177501015738612400
+    second: Jetpack Fly Forward - Sprite Sheet_10
+  - first:
+      213: 3957809949574725882
+    second: Jetpack Fly Forward - Sprite Sheet_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba31d8f3fb5b22f0800000000000000
+      internalID: -996601789122790726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 475
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f59685b8f7803910800000000000000
+      internalID: 1815100152097445368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 475
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab4b71a5166d9e50800000000000000
+      internalID: 6817717653998357416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 475
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f09711f7722720800000000000000
+      internalID: 2819948194053550286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 475
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef972fcc9178d6590800000000000000
+      internalID: -7679333244714452482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 475
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a984cadbe3cfa050800000000000000
+      internalID: 5814081061713643942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69be0d2658bd909f0800000000000000
+      internalID: -501628517540107370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618ff1bb9c94ccd60800000000000000
+      internalID: 7911779776159807510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1769e5a10425422c0800000000000000
+      internalID: -4457347295916157327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc23f8d4da6c4d0800000000000000
+      internalID: -3114611543653560386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 0
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05509d2fc56f7c1e0800000000000000
+      internalID: -2177501015738612400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Forward - Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 0
+        width: 530
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af088e40e27fce630800000000000000
+      internalID: 3957809949574725882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jetpack Fly Forward - Sprite Sheet_0: -996601789122790726
+      Jetpack Fly Forward - Sprite Sheet_1: 1815100152097445368
+      Jetpack Fly Forward - Sprite Sheet_10: -2177501015738612400
+      Jetpack Fly Forward - Sprite Sheet_11: 3957809949574725882
+      Jetpack Fly Forward - Sprite Sheet_2: 6817717653998357416
+      Jetpack Fly Forward - Sprite Sheet_3: 2819948194053550286
+      Jetpack Fly Forward - Sprite Sheet_4: -7679333244714452482
+      Jetpack Fly Forward - Sprite Sheet_5: 5814081061713643942
+      Jetpack Fly Forward - Sprite Sheet_6: -501628517540107370
+      Jetpack Fly Forward - Sprite Sheet_7: 7911779776159807510
+      Jetpack Fly Forward - Sprite Sheet_8: -4457347295916157327
+      Jetpack Fly Forward - Sprite Sheet_9: -3114611543653560386
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/2D Sci Fi Characters/The
+    Hero/Animations/Jetpack Fly Forward/Jetpack Forward - Sprite Sheet.png
+  uploadId: 732349

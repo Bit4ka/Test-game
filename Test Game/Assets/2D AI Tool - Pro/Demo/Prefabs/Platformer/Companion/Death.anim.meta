@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 51c1fe55e9d98504c9bd8e3ba7b59f99
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Companion/Death.anim
+  uploadId: 732349

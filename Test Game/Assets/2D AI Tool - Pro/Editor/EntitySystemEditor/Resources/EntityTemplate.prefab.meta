@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 486db15305b63d24bbbdae517ce9d4e1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Editor/EntitySystemEditor/Resources/EntityTemplate.prefab
+  uploadId: 732349

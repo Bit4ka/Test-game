@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31c8d20cd21f6c64989357dd4d44c062
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Cars_NPC/Car_graph.asset
+  uploadId: 732349

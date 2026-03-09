@@ -1,3 +1,4 @@
+using AI2DTool;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -47,9 +48,16 @@ public class Bullet : MonoBehaviour, IProjectile
         if (!Layers.ProjectileHitLayers.Contains(collision.gameObject.layer) || collision.CompareTag("IgnoreProjectiles"))
             return;
 
+
         if (collision.TryGetComponent<Health>(out Health targetHealth))
             targetHealth.TakeDamage(_damage);
-        
+
+        if (collision.TryGetComponent<IDamageable>(out IDamageable health))
+        {
+            DamageDetails details = new DamageDetails() { damageAmount = _damage, stunDamageAmount = 2, sender = gameObject, position = -_shootDirection };
+            health.Damage(details);
+        }
+
         StartCoroutine(DestroyBullet());
     }
 
