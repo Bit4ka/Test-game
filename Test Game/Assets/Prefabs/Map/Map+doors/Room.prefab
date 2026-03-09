@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5340139903880284558}
   - component: {fileID: 8306154188879691875}
   - component: {fileID: 6716670560043080517}
-  m_Layer: 6
+  m_Layer: 27
   m_Name: left_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,9 +81,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 148576369
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4527879996304118730, guid: ca5b4d64cf617e6428afc4c15e74f449, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -203,6 +203,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   doorDirection: 3
+  _interactionRange: 2
+  _placeToGo: {fileID: 0}
+  _mapBoundry: {fileID: 0}
 --- !u!1 &3209767560609529360
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3844742990280696344}
   - component: {fileID: 6042825954399582298}
-  m_Layer: 7
+  m_Layer: 28
   m_Name: left_shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,9 +283,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingLayerID: -1812720073
+  m_SortingLayer: 6
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5039246421053926115, guid: 13bff44c588baa643b1f72178da9c796, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -304,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8477473619287812017}
   - component: {fileID: 8739636709493204980}
-  m_Layer: 7
+  m_Layer: 28
   m_Name: top_shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,9 +374,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingLayerID: -1812720073
+  m_SortingLayer: 6
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 694494032271565132, guid: a669ae8e7b8a7ea469e031ea081d9f4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -395,7 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559309118964227614}
   - component: {fileID: 962084405743689812}
-  m_Layer: 7
+  m_Layer: 28
   m_Name: bottom_shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,9 +465,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingLayerID: -1812720073
+  m_SortingLayer: 6
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2140929948415837563, guid: f533a34190ae7b943aa22ea7ce072b24, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -490,10 +493,9 @@ GameObject:
   - component: {fileID: 6110491462512788029}
   - component: {fileID: 8130356523657859593}
   - component: {fileID: 5725803758619978973}
-  - component: {fileID: 6200744227538182567}
-  m_Layer: 6
+  m_Layer: 27
   m_Name: top_door
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,9 +560,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 148576369
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -205956608403160043, guid: 5dc312e84e33fa34d9bac1b777789ff5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -606,7 +608,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.04327397}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -616,7 +618,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.45, y: 0.7}
+  m_Size: {x: 0.45, y: 0.786548}
   m_EdgeRadius: 0
 --- !u!50 &6110491462512788029
 Rigidbody2D:
@@ -658,6 +660,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   doorDirection: 0
+  _interactionRange: 2
+  _placeToGo: {fileID: 0}
+  _mapBoundry: {fileID: 0}
 --- !u!95 &5725803758619978973
 Animator:
   serializedVersion: 7
@@ -680,19 +685,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6200744227538182567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4228238566729568130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 381aaabc86f244c42a974c7a755f0961, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Door
-  doorDirection: 0
 --- !u!1 &5691463032546280944
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +699,7 @@ GameObject:
   - component: {fileID: 410965669309494486}
   - component: {fileID: 8312835807094391998}
   - component: {fileID: 6913928946992851792}
-  m_Layer: 6
+  m_Layer: 27
   m_Name: bottom_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,9 +766,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 148576369
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5891053548853091092, guid: f2c9de03bd517734e86bf2f2b82b2097, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -896,6 +888,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   doorDirection: 2
+  _interactionRange: 2
+  _placeToGo: {fileID: 0}
+  _mapBoundry: {fileID: 0}
 --- !u!1 &6400449969021631130
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +905,7 @@ GameObject:
   - component: {fileID: 672053528777839863}
   - component: {fileID: 1137764528322892767}
   - component: {fileID: 7283034104400424809}
-  m_Layer: 6
+  m_Layer: 27
   m_Name: right_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -977,9 +972,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 148576369
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4878329999284876701, guid: 8474088815df6f14d939cc194e8b9442, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1099,6 +1094,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   doorDirection: 1
+  _interactionRange: 2
+  _placeToGo: {fileID: 0}
+  _mapBoundry: {fileID: 0}
+--- !u!1 &6671308281776139760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9193435314201733023}
+  - component: {fileID: 7861783502714259151}
+  m_Layer: 0
+  m_Name: Spot Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9193435314201733023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671308281776139760}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.128, y: -0.368, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7636776919723454071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7861783502714259151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671308281776139760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 2
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 0.8113208, g: 0.6786648, b: 0.24110004, a: 1}
+  m_Intensity: 2
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000a101abae7118db08a916d5fbe123ed1b4df193c13716f493
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 3.81
+  m_PointLightOuterRadius: 7.97
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &7813522317098554954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,7 +1190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277559574816648252}
-  m_Layer: 6
+  m_Layer: 28
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1144,7 +1226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1651965678905729447}
   - component: {fileID: 1960943941777221208}
-  m_Layer: 7
+  m_Layer: 28
   m_Name: right_shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1211,9 +1293,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingLayerID: -1812720073
+  m_SortingLayer: 6
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7479375680931864129, guid: 963264db109e00c4498d9edd0f85f335, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1237,7 +1319,7 @@ GameObject:
   - component: {fileID: 8014709475811957176}
   - component: {fileID: 4626144090814686445}
   - component: {fileID: 5275622850472421970}
-  m_Layer: 8
+  m_Layer: 28
   m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1259,6 +1341,7 @@ Transform:
   m_Children:
   - {fileID: 1277559574816648252}
   - {fileID: 3115010864522742232}
+  - {fileID: 9193435314201733023}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8014709475811957176
@@ -1306,9 +1389,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -10
+  m_SortingLayerID: -1364524639
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 2e140e95d961a1e47b262b33f2b74fb0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1400,7 +1483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3115010864522742232}
-  m_Layer: 0
+  m_Layer: 28
   m_Name: Shadows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
