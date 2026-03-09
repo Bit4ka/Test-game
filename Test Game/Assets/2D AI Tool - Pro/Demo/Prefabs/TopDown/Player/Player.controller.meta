@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b431381e0810c44f960345d15f23c25
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/TopDown/Player/Player.controller
+  uploadId: 732349

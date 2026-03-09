@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2943bd9b60ed3e94581ae04ba650c116
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/TopDown/TileSet/Tiles/tileset-sliced_223.asset
+  uploadId: 732349

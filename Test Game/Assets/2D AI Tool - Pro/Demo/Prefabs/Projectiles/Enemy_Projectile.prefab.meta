@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f71a08f238a4c264b880001f83762ce9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Projectiles/Enemy_Projectile.prefab
+  uploadId: 732349

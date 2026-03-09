@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 521d2e1a01f8997448d2e8623822689b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/DemoScripts/DemoScene_Essencials/EntityEventsCalls.cs
+  uploadId: 732349

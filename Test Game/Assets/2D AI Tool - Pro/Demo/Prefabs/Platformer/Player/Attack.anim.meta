@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e6d4ee1c2ff83946929582bcedb7cf0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Player/Attack.anim
+  uploadId: 732349

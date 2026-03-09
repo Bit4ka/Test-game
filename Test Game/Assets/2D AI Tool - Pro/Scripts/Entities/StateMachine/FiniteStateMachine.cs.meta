@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bcaec9f59785b3d43a24b7ef59cf0e43
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Entities/StateMachine/FiniteStateMachine.cs
+  uploadId: 732349

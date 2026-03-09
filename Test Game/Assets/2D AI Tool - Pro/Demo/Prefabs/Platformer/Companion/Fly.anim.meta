@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d3bfa5a0bd3f1b4f88c30f9fe287ed8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Companion/Fly.anim
+  uploadId: 732349

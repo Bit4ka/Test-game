@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2fd590b2e9ea0bd49b6986a2ca9010ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Dependencies/xNode1.8/Scripts/Editor/Drawers/Odin/InputAttributeDrawer.cs
+  uploadId: 732349

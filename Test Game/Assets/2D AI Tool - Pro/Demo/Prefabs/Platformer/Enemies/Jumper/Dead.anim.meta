@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff30f42c28856c64a855e6cad174aca4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Jumper/Dead.anim
+  uploadId: 732349

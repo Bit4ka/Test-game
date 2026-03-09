@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 23dd181717f8e3c459bf9650b6b46dd1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/TileSets/warped city
+    files/ENVIRONMENT/WarpedCity_Env.prefab
+  uploadId: 732349

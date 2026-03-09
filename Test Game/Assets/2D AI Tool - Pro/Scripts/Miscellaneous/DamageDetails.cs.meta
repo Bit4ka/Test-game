@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7e8885a52f11a964187b6c61080b62ec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Miscellaneous/DamageDetails.cs
+  uploadId: 732349

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c6c2080579cdcd43a3dfbc43257a1bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/TopDown/Enemies/Patroller1/Graphics.controller
+  uploadId: 732349

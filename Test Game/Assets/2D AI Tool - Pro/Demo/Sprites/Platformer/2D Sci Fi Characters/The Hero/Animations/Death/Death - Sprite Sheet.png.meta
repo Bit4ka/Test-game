@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 9b79a1642173dbf41b768c328771c081
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2958237981669002707
+    second: Death - Sprite Sheet_0
+  - first:
+      213: 7445643482326709096
+    second: Death - Sprite Sheet_1
+  - first:
+      213: -1010888779171266589
+    second: Death - Sprite Sheet_2
+  - first:
+      213: 3673412439708976705
+    second: Death - Sprite Sheet_3
+  - first:
+      213: 3912072574831848876
+    second: Death - Sprite Sheet_4
+  - first:
+      213: -2246045709165762533
+    second: Death - Sprite Sheet_5
+  - first:
+      213: -4460748165351033313
+    second: Death - Sprite Sheet_6
+  - first:
+      213: -3492531686327096708
+    second: Death - Sprite Sheet_7
+  - first:
+      213: 7612116532495474363
+    second: Death - Sprite Sheet_8
+  - first:
+      213: 7778255703248712537
+    second: Death - Sprite Sheet_9
+  - first:
+      213: 7658898899903039100
+    second: Death - Sprite Sheet_10
+  - first:
+      213: -788470827723304529
+    second: Death - Sprite Sheet_11
+  - first:
+      213: 158289754475539727
+    second: Death - Sprite Sheet_12
+  - first:
+      213: -5432715611958710910
+    second: Death - Sprite Sheet_13
+  - first:
+      213: 6141284005666476853
+    second: Death - Sprite Sheet_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1126
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd037a55c5cd0920800000000000000
+      internalID: 2958237981669002707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1126
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86339486c4d345760800000000000000
+      internalID: 7445643482326709096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1126
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef7112e20a98f1f0800000000000000
+      internalID: -1010888779171266589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1126
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146ca5eb6259af230800000000000000
+      internalID: 3673412439708976705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 1126
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad666e97497a4630800000000000000
+      internalID: 3912072574831848876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1862ebd35174d0e0800000000000000
+      internalID: -2246045709165762533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 563
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b6cb7d2d3812c0800000000000000
+      internalID: -4460748165351033313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 563
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6dad7fe8088fc0800000000000000
+      internalID: -3492531686327096708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 563
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe5544d7aba3a960800000000000000
+      internalID: 7612116532495474363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 563
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953bb44e95ae1fb60800000000000000
+      internalID: 7778255703248712537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76c95b88ffd94a60800000000000000
+      internalID: 7658898899903039100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa15bcda5f9ce05f0800000000000000
+      internalID: -788470827723304529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 0
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d291b61bb523200800000000000000
+      internalID: 158289754475539727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 0
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6b774fed1b94b0800000000000000
+      internalID: -5432715611958710910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death - Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 0
+        width: 693
+        height: 563
+      alignment: 9
+      pivot: {x: 0.68, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533d986e3493a3550800000000000000
+      internalID: 6141284005666476853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Death - Sprite Sheet_0: 2958237981669002707
+      Death - Sprite Sheet_1: 7445643482326709096
+      Death - Sprite Sheet_10: 7658898899903039100
+      Death - Sprite Sheet_11: -788470827723304529
+      Death - Sprite Sheet_12: 158289754475539727
+      Death - Sprite Sheet_13: -5432715611958710910
+      Death - Sprite Sheet_14: 6141284005666476853
+      Death - Sprite Sheet_2: -1010888779171266589
+      Death - Sprite Sheet_3: 3673412439708976705
+      Death - Sprite Sheet_4: 3912072574831848876
+      Death - Sprite Sheet_5: -2246045709165762533
+      Death - Sprite Sheet_6: -4460748165351033313
+      Death - Sprite Sheet_7: -3492531686327096708
+      Death - Sprite Sheet_8: 7612116532495474363
+      Death - Sprite Sheet_9: 7778255703248712537
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/2D Sci Fi Characters/The
+    Hero/Animations/Death/Death - Sprite Sheet.png
+  uploadId: 732349

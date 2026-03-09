@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5dc0eba0e80886e4cafbaaf5d5a28ab4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Miscellaneous/Tightmesh_NavMesh.cs
+  uploadId: 732349

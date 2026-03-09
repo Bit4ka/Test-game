@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8b685bdabfd73c641a4c5cd60af2fb82
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Entities/SpecialNodes/ConditionalNodes/OnObjectsCloseNode.cs
+  uploadId: 732349

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc9c441c85385064fb1b06dc4149dabf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Patroller1/Run.anim
+  uploadId: 732349

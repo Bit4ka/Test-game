@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bdf877c60c1a256448fbd89c03dc09d7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Patroller2/Patroller2.prefab
+  uploadId: 732349

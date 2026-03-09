@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3adb15c214ca54a4b9d2b959919bedcf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/TrapEnemy/Graphics.controller
+  uploadId: 732349

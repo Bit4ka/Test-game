@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ddcbb5432255d3247a0718b15a9c193c
+timeCreated: 1505462176
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Dependencies/xNode1.8/Scripts/Editor/NodeGraphEditor.cs
+  uploadId: 732349

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80aea8c75cfbc8b46a11fa42a2a4e514
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/TopDown/Enemies/Dasher/Walk_Up.anim
+  uploadId: 732349

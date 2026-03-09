@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 97fb3df0c4bafe744b640a5c3426596c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 3a4a6becce6e9ba468b0e95045ea222e, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Entities/BaseStates/Movement/E_DodgeState.cs
+  uploadId: 732349

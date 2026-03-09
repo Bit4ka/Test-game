@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: acc6b5dcfd505394ab7046544d352ddb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Patroller1/Rifleman_Graphics.prefab
+  uploadId: 732349

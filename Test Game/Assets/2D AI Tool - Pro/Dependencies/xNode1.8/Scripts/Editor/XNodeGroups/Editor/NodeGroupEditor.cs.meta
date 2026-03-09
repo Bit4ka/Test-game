@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f2eb5cc14b9c934faf132ed93a29460
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Dependencies/xNode1.8/Scripts/Editor/XNodeGroups/Editor/NodeGroupEditor.cs
+  uploadId: 732349

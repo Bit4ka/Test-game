@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32ebe0ccf2202f945bf72cefbc54faed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Editor/EntitySystemEditor/Resources/NoFric.physicsMaterial2D
+  uploadId: 732349

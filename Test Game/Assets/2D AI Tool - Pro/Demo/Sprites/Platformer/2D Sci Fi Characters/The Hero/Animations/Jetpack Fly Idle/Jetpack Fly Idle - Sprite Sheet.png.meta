@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 4273cf7913635294e977fbec1223375b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7154960897190812771
+    second: Jetpack Fly Idle - Sprite Sheet_0
+  - first:
+      213: 3169758308173267223
+    second: Jetpack Fly Idle - Sprite Sheet_1
+  - first:
+      213: -7062126530679003228
+    second: Jetpack Fly Idle - Sprite Sheet_2
+  - first:
+      213: -2329178017063950722
+    second: Jetpack Fly Idle - Sprite Sheet_3
+  - first:
+      213: -7028908770234903460
+    second: Jetpack Fly Idle - Sprite Sheet_4
+  - first:
+      213: -5787808924399974581
+    second: Jetpack Fly Idle - Sprite Sheet_5
+  - first:
+      213: -4513366956606523108
+    second: Jetpack Fly Idle - Sprite Sheet_6
+  - first:
+      213: -1765374765302311121
+    second: Jetpack Fly Idle - Sprite Sheet_7
+  - first:
+      213: -5945111754632146374
+    second: Jetpack Fly Idle - Sprite Sheet_8
+  - first:
+      213: 8313774622573088687
+    second: Jetpack Fly Idle - Sprite Sheet_9
+  - first:
+      213: 5241946827882467970
+    second: Jetpack Fly Idle - Sprite Sheet_10
+  - first:
+      213: -6380125861567865283
+    second: Jetpack Fly Idle - Sprite Sheet_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 493
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93a12df8f874bc90800000000000000
+      internalID: -7154960897190812771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 493
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711c28e136e3dfb20800000000000000
+      internalID: 3169758308173267223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 493
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7240c46594efd90800000000000000
+      internalID: -7062126530679003228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 493
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76214a1fe81dafd0800000000000000
+      internalID: -2329178017063950722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 493
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c545587d6bc447e90800000000000000
+      internalID: -7028908770234903460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 493
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47cd49c2729dafa0800000000000000
+      internalID: -5787808924399974581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c197b727aac4d51c0800000000000000
+      internalID: -4513366956606523108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2797ba11012087e0800000000000000
+      internalID: -1765374765302311121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32d6239b58be7da0800000000000000
+      internalID: -5945111754632146374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf402198f5706370800000000000000
+      internalID: 8313774622573088687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2829b6fedd22fb840800000000000000
+      internalID: 5241946827882467970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jetpack Fly Idle - Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ed6fe055d3577a0800000000000000
+      internalID: -6380125861567865283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jetpack Fly Idle - Sprite Sheet_0: -7154960897190812771
+      Jetpack Fly Idle - Sprite Sheet_1: 3169758308173267223
+      Jetpack Fly Idle - Sprite Sheet_10: 5241946827882467970
+      Jetpack Fly Idle - Sprite Sheet_11: -6380125861567865283
+      Jetpack Fly Idle - Sprite Sheet_2: -7062126530679003228
+      Jetpack Fly Idle - Sprite Sheet_3: -2329178017063950722
+      Jetpack Fly Idle - Sprite Sheet_4: -7028908770234903460
+      Jetpack Fly Idle - Sprite Sheet_5: -5787808924399974581
+      Jetpack Fly Idle - Sprite Sheet_6: -4513366956606523108
+      Jetpack Fly Idle - Sprite Sheet_7: -1765374765302311121
+      Jetpack Fly Idle - Sprite Sheet_8: -5945111754632146374
+      Jetpack Fly Idle - Sprite Sheet_9: 8313774622573088687
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/2D Sci Fi Characters/The
+    Hero/Animations/Jetpack Fly Idle/Jetpack Fly Idle - Sprite Sheet.png
+  uploadId: 732349

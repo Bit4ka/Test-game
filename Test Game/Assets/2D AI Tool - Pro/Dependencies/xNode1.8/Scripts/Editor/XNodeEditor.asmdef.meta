@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 002c1bbed08fa44d282ef34fd5edb138
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Dependencies/xNode1.8/Scripts/Editor/XNodeEditor.asmdef
+  uploadId: 732349

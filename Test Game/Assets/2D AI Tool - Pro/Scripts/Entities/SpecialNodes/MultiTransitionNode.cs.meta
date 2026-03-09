@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b02a4f766f3c7d74a9c8371d0a8c18e0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Scripts/Entities/SpecialNodes/MultiTransitionNode.cs
+  uploadId: 732349

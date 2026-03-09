@@ -1,0 +1,1154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8404398012509800798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b685bdabfd73c641a4c5cd60af2fb82, type: 3}
+  m_Name: On Objects Close
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2264, y: -488}
+  ports:
+    keys:
+    - NextState
+    values:
+    - _fieldName: NextState
+      _node: {fileID: -8404398012509800798}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -8195952708689120293}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  NextState: {fileID: -8195952708689120293}
+  IgnoreCooldown: 1
+  CallOnlyOnce: 0
+  entityAI: {fileID: 0}
+  HasTransitionOnce: 0
+  ObjectTag: EditorOnly
+--- !u!114 &-8195952708689120293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5841bf77d69c41b4eb8ebf689fad45c9, type: 3}
+  m_Name: E_Change Objects Stats
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1880, y: -488}
+  ports:
+    keys:
+    - In
+    - TimeIsOver
+    - NextState
+    values:
+    - _fieldName: In
+      _node: {fileID: -8195952708689120293}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextState
+        node: {fileID: -8404398012509800798}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: -8195952708689120293}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState
+      _node: {fileID: -8195952708689120293}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -5553431866408892300}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: -8195952708689120293}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 0
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  StateAnimation:
+    Name: Shoot
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  objectsDetectionRadius: 5
+  NoAnimation: 0
+  WaitForTrigger1: 1
+  ChangeAllAtOnce: 1
+  ObjectsTag: EditorOnly
+  ObjectsLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  WhatToChange: 1
+  NewSprite: {fileID: -5894538021603079385, guid: 918516983a8812543a9ca64280ee7ec7,
+    type: 3}
+  NewSpriteColor: {r: 1, g: 0, b: 0, a: 1}
+  NewMaterial: {fileID: 0}
+  NewPhysicsMaterial2D: {fileID: 6200000, guid: 8711b461e2a9ae4489575e76c8b7c7ed,
+    type: 2}
+  NewRigidBodyType: 2
+  NewLayer: 9
+  NewTag: Player
+  NextState: {fileID: -5553431866408892300}
+--- !u!114 &-5553431866408892300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb9676b0b179b7499ad91a5645df50d, type: 3}
+  m_Name: E_Patrolling_Nav Mesh
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1352, y: -280}
+  ports:
+    keys:
+    - NextState1
+    - NextState2
+    - In
+    - NextState3
+    - TimeIsOver
+    values:
+    - _fieldName: NextState1
+      _node: {fileID: -5553431866408892300}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: 856504569188210848}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState2
+      _node: {fileID: -5553431866408892300}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: In
+      _node: {fileID: -5553431866408892300}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextState1
+        node: {fileID: -3013135892791100960}
+        reroutePoints: []
+      - fieldName: FirstState
+        node: {fileID: 1606249163519210481}
+        reroutePoints: []
+      - fieldName: NextState
+        node: {fileID: -8195952708689120293}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState3
+      _node: {fileID: -5553431866408892300}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: -5553431866408892300}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: -5553431866408892300}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 0
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  FollowAnimation:
+    Name: Run
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  IdleAnimation:
+    Name: Idle
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  JumpAnimation:
+    Name: Jump
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  LedgeClimbAnimation:
+    Name: LedgeClimb
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  TurnAroundAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  FallAnimation:
+    Name: Fall
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  LandAnimation:
+    Name: Land
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  detectionType: 0
+  FOV: 15
+  maxAgroDistance: 10
+  minAgroDistance: 1
+  faceTarget: 0
+  movementType: 0
+  JumpDuration: 0.25
+  MaxJumpDistanceX: 10
+  MaxJumpDistanceY: 10
+  speed: 5
+  thrust: 2
+  maxVelocity: 10
+  delayToExitState: 0
+  UseTurnAroundAnim: 0
+  JumpLowHeightObstacles: 0
+  UseLedgeClimb: 1
+  stopMovementOnLanding: 0
+  WaitTrigger1ForJump: 0
+  entityFlying: 0
+  AgentID: 0
+  DistanceToSlowDown: 1
+  SlowDownDuration: 0.1
+  pathUpdateSeconds: 0.2
+  nextWaypointDistance: 1
+  Target: {fileID: 0}
+  TargetPosition: {x: 0, y: 0, z: 0}
+  UseParentTransform: 1
+  ParentTransformName: PatrolPoints1
+  PatrolPoints: []
+  nextPatrolPointDistance: 1
+  delayBetweenPoints: 2
+  NextState1: {fileID: 856504569188210848}
+  NextState2: {fileID: 0}
+  NextState3: {fileID: 0}
+--- !u!114 &-4553575351631698931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb53b7258197bea44938963236f4a207, type: 3}
+  m_Name: E_Dead Normal
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1880, y: 360}
+  ports:
+    keys:
+    - In
+    - TimeIsOver
+    values:
+    - _fieldName: In
+      _node: {fileID: -4553575351631698931}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: DeadState
+        node: {fileID: -3694682658554794154}
+        reroutePoints: []
+      - fieldName: NextState
+        node: {fileID: 0}
+        reroutePoints: []
+      - fieldName: NextState
+        node: {fileID: -4093134874682732859}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: -4553575351631698931}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: -4553575351631698931}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 0
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  DeadAnimation:
+    Name: Dead
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0.091
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  DeadLayer: 0
+  WaitForAnimationFinish: 1
+  DestroyEntity: 0
+  HandleByExternal: 0
+  SpawnOnStateEnter: {fileID: 3556254647924014183, guid: e70342c47e6a5b248a5a764cad6c6ec8,
+    type: 3}
+  ScorePointsValue: 10
+  entityFlying: 0
+--- !u!114 &-4093134874682732859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44f79cf4e62694f4eae8da664a1ada9d, type: 3}
+  m_Name: On Damaged Direction
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2280, y: 536}
+  ports:
+    keys:
+    - NextState
+    values:
+    - _fieldName: NextState
+      _node: {fileID: -4093134874682732859}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -4553575351631698931}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  NextState: {fileID: -4553575351631698931}
+  IgnoreCooldown: 0
+  CallOnlyOnce: 1
+  entityAI: {fileID: 0}
+  HasTransitionOnce: 0
+  facingAndDamage: 0
+  MaxOutAggro: 1
+--- !u!114 &-3694682658554794154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba80001ebbe5254591140d8a51d3abb, type: 3}
+  m_Name: Dead Sate
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2280, y: 360}
+  ports:
+    keys:
+    - DeadState
+    values:
+    - _fieldName: DeadState
+      _node: {fileID: -3694682658554794154}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -4553575351631698931}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  DeadState: {fileID: -4553575351631698931}
+--- !u!114 &-3013135892791100960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e2530e80936cf4aa3e3e96edf7f8e7, type: 3}
+  m_Name: E_Stun State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1880, y: 56}
+  ports:
+    keys:
+    - NextState1
+    - In
+    - TimeIsOver
+    values:
+    - _fieldName: NextState1
+      _node: {fileID: -3013135892791100960}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -5553431866408892300}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: In
+      _node: {fileID: -3013135892791100960}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: StunState
+        node: {fileID: -267139273738056026}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: -3013135892791100960}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: -3013135892791100960}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 0
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 5
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  StunnedAnimation:
+    Name: Stunned
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  StunnedDuration: 2
+  WakeOnDamage: 0
+  NextState1: {fileID: -5553431866408892300}
+--- !u!114 &-803121832066879145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fb3df0c4bafe744b640a5c3426596c, type: 3}
+  m_Name: E_Dodge State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -120, y: -360}
+  ports:
+    keys:
+    - NextState1
+    - NextState2
+    - In
+    - TimeIsOver
+    values:
+    - _fieldName: NextState1
+      _node: {fileID: -803121832066879145}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: 856504569188210848}
+        reroutePoints:
+        - {x: -704, y: -448}
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState2
+      _node: {fileID: -803121832066879145}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: In
+      _node: {fileID: -803121832066879145}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextState1
+        node: {fileID: 856504569188210848}
+        reroutePoints: []
+      - fieldName: TimeIsOver
+        node: {fileID: 856504569188210848}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: -803121832066879145}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: -803121832066879145}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 1
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  dodgeAnimation:
+    Name: Jump
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  fallingAnimation:
+    Name: Fall
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  landingAnimation:
+    Name: Land
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  gameType: 0
+  DodgeAngle: {x: 1, y: 0}
+  dodgeDetectionRange: 5
+  speed: 15
+  dodgeDuration: 0.1
+  FlipIfNoLedge: 1
+  CanBeDamaged: 1
+  stopVelocityOnEnd: 0
+  NextState1: {fileID: 856504569188210848}
+  NextState2: {fileID: 0}
+--- !u!114 &-267139273738056026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1f3ad47a665764882caa6c90e6a0cd, type: 3}
+  m_Name: Stun State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2280, y: 56}
+  ports:
+    keys:
+    - StunState
+    values:
+    - _fieldName: StunState
+      _node: {fileID: -267139273738056026}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -3013135892791100960}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  StunState: {fileID: -3013135892791100960}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4ca0ffe52592d48b2e19142669e123, type: 3}
+  m_Name: Patroller1_graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1606249163519210481}
+  - {fileID: -3694682658554794154}
+  - {fileID: -267139273738056026}
+  - {fileID: -803121832066879145}
+  - {fileID: 6871891317835906666}
+  - {fileID: -4553575351631698931}
+  - {fileID: -5553431866408892300}
+  - {fileID: 856504569188210848}
+  - {fileID: -3013135892791100960}
+  - {fileID: -8404398012509800798}
+  - {fileID: -4093134874682732859}
+  - {fileID: -8195952708689120293}
+  - {fileID: 3626658792857777673}
+--- !u!114 &856504569188210848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e62b40db86f91e419b2b34a7bed1075, type: 3}
+  m_Name: E_Follow Target_Nav Mesh
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -824, y: -232}
+  ports:
+    keys:
+    - NextState1
+    - NextState2
+    - NextState3
+    - In
+    - TimeIsOver
+    values:
+    - _fieldName: NextState1
+      _node: {fileID: 856504569188210848}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -803121832066879145}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState2
+      _node: {fileID: 856504569188210848}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: 6871891317835906666}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState3
+      _node: {fileID: 856504569188210848}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: In
+      _node: {fileID: 856504569188210848}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextState1
+        node: {fileID: -5553431866408892300}
+        reroutePoints: []
+      - fieldName: NextState1
+        node: {fileID: 6871891317835906666}
+        reroutePoints: []
+      - fieldName: NextState1
+        node: {fileID: -803121832066879145}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: 856504569188210848}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -803121832066879145}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: 856504569188210848}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 1
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: -803121832066879145}
+  FollowAnimation:
+    Name: Run
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  IdleAnimation:
+    Name: Idle
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  JumpAnimation:
+    Name: Jump
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  LedgeClimbAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  TurnAroundAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  FallAnimation:
+    Name: Fall
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  LandAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  detectionType: 0
+  FOV: 15
+  maxAgroDistance: 11
+  minAgroDistance: 2
+  faceTarget: 0
+  movementType: 0
+  JumpDuration: 0.2
+  MaxJumpDistanceX: 10
+  MaxJumpDistanceY: 10
+  speed: 5
+  thrust: 2
+  maxVelocity: 10
+  delayToExitState: 0.05
+  UseTurnAroundAnim: 0
+  JumpLowHeightObstacles: 0
+  UseLedgeClimb: 0
+  stopMovementOnLanding: 0
+  WaitTrigger1ForJump: 0
+  entityFlying: 0
+  AgentID: 0
+  DistanceToSlowDown: 1
+  SlowDownDuration: 0.1
+  pathUpdateSeconds: 0.1
+  nextWaypointDistance: 2
+  Target: {fileID: 0}
+  TargetPosition: {x: 0, y: 0, z: 0}
+  NextState1: {fileID: -803121832066879145}
+  NextState2: {fileID: 6871891317835906666}
+  NextState3: {fileID: 0}
+--- !u!114 &1606249163519210481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48bbfa5415241245acc30971a7bc285, type: 3}
+  m_Name: First State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2264, y: -280}
+  ports:
+    keys:
+    - FirstState
+    values:
+    - _fieldName: FirstState
+      _node: {fileID: 1606249163519210481}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -5553431866408892300}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  FirstState: {fileID: -5553431866408892300}
+--- !u!114 &3297947169366703608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbae300e74402f4eac8b9b4f1be8c85, type: 3}
+  m_Name: On Damaged Direction
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -2280, y: 552}
+  ports:
+    keys:
+    - NextState
+    values:
+    - _fieldName: NextState
+      _node: {fileID: 3297947169366703608}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: -4553575351631698931}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  NextState: {fileID: -4553575351631698931}
+  IgnoreCooldown: 0
+  CallOnlyOnce: 1
+  entityAI: {fileID: 0}
+  HasTransitionOnce: 0
+  CachedState: {fileID: 0}
+  facingAndDamage: 0
+--- !u!114 &3626658792857777673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4ff727d93a32d4dbb70e049abfaa6f, type: 3}
+  m_Name: Alternate State
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1304, y: 232}
+  ports:
+    keys:
+    - NextState1
+    - NextState2
+    - In
+    - TimeIsOver
+    values:
+    - _fieldName: NextState1
+      _node: {fileID: 3626658792857777673}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState2
+      _node: {fileID: 3626658792857777673}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: In
+      _node: {fileID: 3626658792857777673}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: 3626658792857777673}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: 3626658792857777673}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 0
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  NextState1: {fileID: 0}
+  NextState2: {fileID: 0}
+--- !u!114 &6871891317835906666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d93e429b76172d34ca18aed66cc23821, type: 3}
+  m_Name: E_Shoot Projectile
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -120, y: -136}
+  ports:
+    keys:
+    - NextState1
+    - NextState2
+    - In
+    - TimeIsOver
+    - NextState3
+    values:
+    - _fieldName: NextState1
+      _node: {fileID: 6871891317835906666}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: In
+        node: {fileID: 856504569188210848}
+        reroutePoints:
+        - {x: -704, y: 208}
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState2
+      _node: {fileID: 6871891317835906666}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: In
+      _node: {fileID: 6871891317835906666}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextState2
+        node: {fileID: 856504569188210848}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TimeIsOver
+      _node: {fileID: 6871891317835906666}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextState3
+      _node: {fileID: 6871891317835906666}
+      _typeQualifiedName: AI2DTool.EntityState, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  In: {fileID: 6871891317835906666}
+  CanSeeThroughWalls: 0
+  PlayDamagedAnim: 0
+  CanStopStun: 0
+  DamagedAnimation:
+    Name: 
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  stateCooldown: 0
+  stateDuration: 0
+  resetDurationOnExit: 0
+  UseAggroFill: 0
+  FillDuration: 2
+  DecreaseDuration: 4
+  MinDistanceToMultiplyAggro: 5
+  AggroMultiplier: 2
+  TimeIsOver: {fileID: 0}
+  shootAnimation:
+    Name: Shoot
+    SoundAsset: {fileID: 11400000, guid: a6aa3aee1fbd41b418f6e53353a4463c, type: 2}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  IdleAnimation:
+    Name: Idle
+    SoundAsset: {fileID: 0}
+    TransitionLength: 0
+    SpeedMultiplier: 1
+    CanBeStoppedByDamage: 0
+  detectionType: 0
+  TargetMaxDistance: 15
+  FOV: 15
+  objectPoolHolder: Projectiles
+  projectilePrefab: {fileID: 3743824526258988772, guid: f71a08f238a4c264b880001f83762ce9,
+    type: 3}
+  dropProjectile: 0
+  instantFirstShoot: 0
+  straightShoot: 0
+  ProjectileSpeed: 30
+  maxTravelDistance: 30
+  ProjectileDamage: 10
+  ProjectileStunAmount: 10
+  delayBetweenShoots: 0.05
+  delayToExitState: 1
+  maxShootsInState: 2
+  EntityFlying: 0
+  NextState1: {fileID: 856504569188210848}
+  NextState2: {fileID: 0}
+  NextState3: {fileID: 0}

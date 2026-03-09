@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 47d4e2af18919734595aab882daba494
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Sprites/Platformer/TileSets/warped city
+    files/ENVIRONMENT/tileAssets/tileset_32.asset
+  uploadId: 732349

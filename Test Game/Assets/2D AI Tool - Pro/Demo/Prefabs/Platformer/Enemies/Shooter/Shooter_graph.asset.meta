@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a97009c91d32cd4aa5eaf506b7f9ad5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Shooter/Shooter_graph.asset
+  uploadId: 732349

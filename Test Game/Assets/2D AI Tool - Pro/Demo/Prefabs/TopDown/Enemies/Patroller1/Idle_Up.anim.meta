@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64fea4754cde4154b9708e8335b0a89a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/TopDown/Enemies/Patroller1/Idle_Up.anim
+  uploadId: 732349

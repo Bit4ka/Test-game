@@ -1,7 +1,8 @@
+using AI2DTool;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IDamageable
 {
     #region Private Fields
     [Header("Components")]
@@ -48,6 +49,16 @@ public class PlayerController : MonoBehaviour
 
         _animator.SetFloat("InputX", _movement.x);
         _animator.SetFloat("InputY", _movement.y);
+    }
+
+    public void Damage(DamageDetails details)
+    {
+        GetComponent<Health>().TakeDamage(1);
+    }
+
+    public void KnockBack(float knockBackLevel, float knockBackDuration, Vector2 knockBackDirection)
+    {
+        throw new System.NotImplementedException();
     }
     #endregion
 }

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b54c7346fde16f747a4e1cc8e7e5599a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/SuicideEnemy/AutoDieEnemy_Type2_graph.asset
+  uploadId: 732349

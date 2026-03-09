@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 08e1eb37d3335a54ba835a8098e1b66f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/SuicideEnemy/AutoDieEnemy_Type2
+    Variant.prefab
+  uploadId: 732349

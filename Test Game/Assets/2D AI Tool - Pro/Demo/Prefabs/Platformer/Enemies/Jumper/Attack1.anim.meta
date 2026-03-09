@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e791aa8f227bb0b498d9feb9bfef4cde
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196102
+  packageName: 2D AI tool - Pro
+  packageVersion: 2.0.0
+  assetPath: Assets/2D AI Tool - Pro/Demo/Prefabs/Platformer/Enemies/Jumper/Attack1.anim
+  uploadId: 732349
